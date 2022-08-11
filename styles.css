@@ -1,0 +1,71 @@
+body{
+    background: rgb(19, 159, 184);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+min-height: 40vh;
+}
+
+body> table{
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+   margin-left: 40%;
+   margin-top: -80%;
+}
+table.list{
+    width: 100%;
+}
+td,th,tr{
+padding:7px;
+border: solid black;
+color: white;
+
+}
+button{
+    background: red;
+    border-radius: 40px;
+    height: 30px;
+    color: white;
+}
+.submit{
+    background: red;
+    border-radius: 40px;
+    height: 30px;
+    color: white;
+}
+#A{
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto;
+ background: burlywood;
+   border: 1px solid black;
+   
+}
+#child-C{
+
+  text-align: center;
+  grid-template-rows: auto;
+  border: 1px solid black;
+  background: burlywood;
+}
+
+
+
+
+
+
+
+/* #Calculator{
+    display: grid; 
+}
+#value{
+ border: 2px solid black; 
+ text-align: right;  
+ height: 50px;
+grid-column: span 4;
+} */
+
+

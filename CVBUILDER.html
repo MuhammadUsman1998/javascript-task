@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV BUILDER</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CV BUILDER</h1>
+        <h2>(ADMIN PANEL)</h2>
+
+        <form action="result.html" method="get">
+
+            <b> <label for="firstname">First Name</label>
+                <br>
+                <br>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required />
+                <br>
+                <br>
+                <label for="lastname">Last Name</label>
+                <br>
+                <br>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required />
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <br>
+                <input type="email" id="Email" name="Email" placeholder="Enter Email" required>
+
+                <br>
+                <br>
+                <label for="Education">Education</label>
+                <br>
+                <br>
+                <input type="text" id="Education" name="Education" placeholder="Enter Education" required />
+                <br>
+                <br>
+                <label for="Skills">Skills</label>
+                <br>
+                <br>
+                <input type="text" id="Skills" name="Skills" placeholder="Enter Skills" required />
+                <br>
+                <br>
+
+                <label for="Organization">Organization</label><b>
+                    <br>
+                    <br>
+                    <input type="text" id="Organization" name="Organization" placeholder="Enter Organization"
+                        required />
+                    <br>
+                    <br>
+
+                    <button type="button" id="read_all_data" onclick="read_data()">Read all data</button>
+                    <button type="button" id="delete_data" onclick="delete_function()">Delete all data</button>
+                    <br>
+                    <br>
+                    <input type="submit" class='submit' onclick="dataSubmit()" />
+                    <br>
+                    <br>
+
+        </form>
+
+        <br>
+        <br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Education</th>
+                    <th>Skills</th>
+                    <th>Organization</th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+    </div>
+
+    <script src="CVBUILDER.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <button type="button" onclick="editButton()">Edit</button>
+                <br>
+                <br>
+                <button type="button" onclick="deleteButton()">Delete</button>
+                <br>
+                <br> -->
+<!-- <div class="container id=orAddButton">
+                    <button type="button"  onclick="addNewOrField()">Add</button>
+                </div> -->
